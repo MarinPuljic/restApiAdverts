@@ -1,0 +1,7 @@
+# Routes
+
+GET     /car/adverts                            controllers.CarAdvertsApiController.getAll
+POST    /car/adverts                            controllers.CarAdvertsApiController.create
+GET     /car/adverts/:id                        controllers.CarAdvertsApiController.getById(id: Int)
+PUT     /car/adverts/:id                        controllers.CarAdvertsApiController.update(id: Int)
+DELETE  /car/adverts/:id                        controllers.CarAdvertsApiController.delete(id: Int)
